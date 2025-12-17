@@ -68,8 +68,8 @@ main{
     width: 90%;
 }
 .SquirrelTop img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 30vh;
     border-radius: 20px;
     transition: transform 0.5s;
 }
@@ -153,6 +153,12 @@ main{
     display: flex;
     width: 100%;
     transition: 0.5s;
+}
+@media (max-width:400px) {
+    .squirrelFacts {
+        font-size: 18px;
+        padding: 10px 15px;
+    }
 }
 @media (max-width:375px) {
     .squirrelFacts {
