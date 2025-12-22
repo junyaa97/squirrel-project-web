@@ -154,6 +154,9 @@ main{
     width: 100%;
     transition: 0.5s;
 }
+.result {
+    display: none;
+}
 @media (max-width:400px) {
     .squirrelFacts {
         font-size: 18px;
