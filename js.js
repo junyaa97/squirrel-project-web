@@ -57,3 +57,16 @@ function checkAnswer(event){
     setTimeout (nextQuestion, 800);
 }
 quiz.addEventListener("click", checkAnswer);
+
+const navBox = document.querySelector(".nav_box");
+const menu = document.querySelector(".menu");
+function openMenu(){
+    navBox.style.right = "0";
+}
+menu.addEventListener("click", openMenu);
+function closeMenu(event){
+    if (event.target.classList.contains("link") || event.target.classList.contains("closeImg")){  //закрытие по клику на ссылку или кнопку закрытия
+        navBox.style.right = "-100%";
+    }
+}
+navBox.addEventListener("click", closeMenu);
