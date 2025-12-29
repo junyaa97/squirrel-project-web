@@ -70,3 +70,12 @@ function closeMenu(event){
     }
 }
 navBox.addEventListener("click", closeMenu);
+
+const navTitle = document.querySelector('.nav-title');
+const navSub = document.querySelector('.nav-sub');
+
+if (navTitle && navSub) {
+  navTitle.addEventListener('click', () => {
+    navSub.classList.toggle('open');
+  });
+}
