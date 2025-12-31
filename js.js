@@ -37,13 +37,21 @@ document.querySelectorAll(".slider").forEach(initSlider);
 const quiz = document.querySelector(".quiz");
 const questions = document.querySelectorAll(".question");
 let questionNumber = 0;
-let points = 0;
+let points = 0;  
 
-function nextQuestion(){
-    questions [questionNumber].style.display = "none";
-    questionNumber++;
-    questions [questionNumber].style.display = "block";
+const result = document.querySelector(".result");
+
+function nextQuestion() {
+  questions[questionNumber].style.display = "none";
+  questionNumber++;
+
+  if (questionNumber < questions.length) {
+    questions[questionNumber].style.display = "block";
+  } else {
+    result.style.display = "block";
+  }
 }
+
 function checkAnswer(event){
     const clicked = event.target;
     const check = clicked.getAttribute("data-answer");

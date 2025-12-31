@@ -252,7 +252,6 @@ main{
     text-align: center;
 }
 .proverbSection {
-    padding: 20px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,7 +259,13 @@ main{
     margin-top: 30px; */
 }
 .proverbHead {
+    color:  rgb(167, 115, 80);
     text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 35px;
+    line-height: 67%;
+    margin-bottom: 35px;
 }
 .proverb {
     width: 90%;
@@ -269,9 +274,8 @@ main{
 .proverb div {
     background-color: rgb(167, 115, 80);
     border-radius: 20px;
-    padding: 10px;
-    margin-top: 10px;
-
+    padding: 30px;
+    margin-bottom: 20px;
 }
 .footer {
     background-color: rgb(51, 33, 22);
@@ -284,6 +288,9 @@ main{
 }
 .quizSection {
     padding: 30px 0px;
+}
+.result {
+  display: none;
 }
 @media (max-width:400px) {
     .squirrelFacts {
