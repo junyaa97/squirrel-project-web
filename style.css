@@ -277,6 +277,15 @@ main{
     padding: 30px;
     margin-bottom: 20px;
 }
+.test {
+    color:  rgb(167, 115, 80);
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 35px;
+    line-height: 67%;
+    margin-bottom: 35px;
+}
 .footer {
     background-color: rgb(51, 33, 22);
     color: rgb(255, 255, 255);
@@ -287,7 +296,15 @@ main{
     /* margin-top: 20px; */
 }
 .quizSection {
-    padding: 30px 0px;
+    color: rgb(167, 115, 80);
+    line-height: 26px;
+    font-size: 20px;
+    text-align: center;
+}
+.option {
+    color: rgb(255, 255, 255);
+    background-color:  rgb(167, 115, 80);
+    border: none;
 }
 .result {
   display: none;
