@@ -318,7 +318,7 @@ main{
         height: 250px;
     }
     .heroBox {
-        min-height: 784px;
+        min-height: 764px;
     }
 }
 @media (max-width:375px) {
@@ -331,7 +331,7 @@ main{
         height: 170px;
     }
         .heroBox {
-        min-height: 607px;
+        min-height: 587px;
     }
 }
 @media (max-width: 360px) {
