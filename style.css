@@ -319,6 +319,10 @@ main{
     .squirrelFacts {
         font-size: 16px;
         padding: 10px;
+        line-height: 20px;
+    }
+    .SquirrelTop img {
+        height: 25vh;
     }
 }
 @media (max-width: 360px) {
