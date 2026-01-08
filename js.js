@@ -1,11 +1,3 @@
-function setHeight() {
-  const heroBox = document.querySelector(".heroBox");
-  const imgHero = document.querySelector(".SquirrelTop img");
-  const height = window.innerHeight -60;
-  heroBox.style.height = height + "px";
-  imgHero.style.height = (window.innerHeight * 0.3) + "px";
-}
-window.addEventListener ("load", setHeight); //активация setHeight
 function initSlider(sliderElem) {
     const slidesContainer = sliderElem.querySelector(".slides");
     const slides = slidesContainer.querySelectorAll(".slide");
