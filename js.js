@@ -53,7 +53,10 @@ function nextQuestion() {
 }
 
 function checkAnswer(event){
-    const clicked = event.target;
+    const clicked = event.target.closest('.option');
+    
+    if (!clicked) return;
+
     const check = clicked.getAttribute("data-answer");
     if (check === "true"){
         points++;
