@@ -140,12 +140,12 @@ main{
 }
 .SquirrelTop img {
     width: auto;
-    height: 30dvh;
+    /* height: 30dvh; */
     border-radius: 20px;
     transition: transform 0.5s;
 }
 .heroBox {
-    min-height: calc(100dvh - 60px);
+    /* min-height: calc(100dvh - 60px); */
     display: flex;
     flex-direction: column;
     align-items: center;
