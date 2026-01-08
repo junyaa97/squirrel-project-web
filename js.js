@@ -8,6 +8,7 @@ function initSlider(sliderElem) {
 
     function showSlide(index) {
         const slideWidth = sliderElem.clientWidth;
+        console.log(sliderElem.clientWidth)
         slidesContainer.style.transform = `translateX(-${index * slideWidth}px)`;
     }
 
@@ -28,10 +29,9 @@ function initSlider(sliderElem) {
 
     slidesContainer.addEventListener("touchstart", touchStart, { passive: true });
     slidesContainer.addEventListener("touchend", touchEnd, { passive: true });
-
+    
     showSlide(nowSlide);
 }
-console.log(sliderElem.clientWidth)
 document.querySelectorAll(".slider").forEach(initSlider);
 
 const quiz = document.querySelector(".quiz");
