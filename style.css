@@ -262,7 +262,6 @@ main{
     font-weight: 600;
     margin-top: 35px;
     line-height: 67%;
-    margin-bottom: 35px;
     padding: 0 8px;
 }
 .footer {
@@ -276,11 +275,14 @@ main{
 }
 .quizSection {
     color: rgb(167, 115, 80);
-    line-height: 26px;
-    font-size: 20px;
     text-align: center;
     margin-top: 40px;
     padding: 0 16px;
+}
+.question p {
+    line-height: 26px;
+    font-size: 20px;
+    padding: 35px;
 }
 .option {
     color: rgb(255, 255, 255);
