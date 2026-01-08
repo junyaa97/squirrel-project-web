@@ -1,14 +1,13 @@
 function initSlider(sliderElem) {
     const slidesContainer = sliderElem.querySelector(".slides");
     const slides = slidesContainer.querySelectorAll(".slide");
-    
-    const slideWidth = sliderElem.clientWidth; 
 
     let nowSlide = 0;
     const swipe = 50;
     let startX = 0;
 
     function showSlide(index) {
+        const slideWidth = sliderElem.clientWidth;
         slidesContainer.style.transform = `translateX(-${index * slideWidth}px)`;
     }
 
@@ -32,7 +31,7 @@ function initSlider(sliderElem) {
 
     showSlide(nowSlide);
 }
-
+console.log(sliderElem.clientWidth)
 document.querySelectorAll(".slider").forEach(initSlider);
 
 const quiz = document.querySelector(".quiz");
