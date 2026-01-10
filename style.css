@@ -265,6 +265,9 @@ main{
     margin-top: 35px;
     line-height: 67%;
     padding: 0 8px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 .footer {
     background-color: rgb(51, 33, 22);
@@ -299,7 +302,38 @@ main{
 section + section {
     margin-top: 40px;
 }
-
+.result {
+    background-color: rgb(167, 115, 80);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 12px 20px;
+    margin: 20px;
+    line-height: 26px;
+    font-size: 20px;
+}
+.finished {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.finished2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.reloadTest {
+    margin: 0px 8px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 3px solid #f5f0e6;;
+    min-width: 120px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 22px;
+}
+#eruda {
+    display: none !important;
+}
 @media (max-width:400px) {
     .squirrelFacts {
         font-size: 18px;

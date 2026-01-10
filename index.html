@@ -188,9 +188,9 @@
                     <button class="option" data-answer="true">no</button>
                 </div>
                 <div class="result">
-                    <p>Тест завершен</p>
-                    <p>Ваш результат <span id="point">0</span> из <span id="totalPoint">0</span></p>
-                    <button class="option" onclick="location.reload()">Пройти заново</button>
+                    <p class="finished">Тест завершен</p>
+                    <p class="finished2">Ваш результат <span id="point">0</span> из <span id="totalPoint">0</span></p>
+                    <button class="reloadTest"  onclick="location.reload()">Пройти заново</button>
                 </div>
             </div>
         </section>
@@ -201,6 +201,8 @@
             <img src="logo BD.svg" alt="">
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+    <script>eruda.init();</script>
     <script src="js.js"></script>
 </body>
 </html>
